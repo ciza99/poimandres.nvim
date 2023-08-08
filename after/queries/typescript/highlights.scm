@@ -5,10 +5,10 @@
 
 (string_fragment) @string.fragment
 
-(value (true) @boolean.true)
-(value (false) @falsy)
-(value (null) @falsy)
-(value (undefined) @falsy)
+(true) @boolean.true
+(false) @falsy
+(null) @falsy
+(undefined) @falsy
 
 (literal_type (null) @literal_type)
 (literal_type (undefined) @literal_type)
