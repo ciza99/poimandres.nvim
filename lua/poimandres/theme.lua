@@ -159,7 +159,11 @@ local highlights = {
 
 	-- custom queries
 	["@boolean.true"] = { fg = p.brightMint },
-	["@boolean.false"] = { fg = p.hotRed },
+	["@falsy"] = { fg = p.hotRed },
+
+	-- typescript
+	["@literal_type.tsx"] = { link = "Type" },
+	["@literal_type.typescript"] = { link = "Type" },
 
 	-- rust
 	["@string.rust"] = { link = "String" },

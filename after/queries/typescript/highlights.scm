@@ -4,8 +4,15 @@
 "from" @keyword
 
 (string_fragment) @string.fragment
+
+(literal_type (null) @literal_type)
+(literal_type (undefined) @literal_type)
+(literal_type (false) @literal_type)
+
 (true) @boolean.true
-(false) @boolean.false
+(false) @falsy
+(null) @falsy
+(undefined) @falsy
 
 (import_clause 
   [
