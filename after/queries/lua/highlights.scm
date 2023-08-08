@@ -2,6 +2,6 @@
 
 (string_content) @string.fragment
 
-(value (true) @boolean.true)
-(value (false) @falsy)
-(value (nil) @falsy)
+(true) @boolean.true
+(false) @falsy
+(nil) @falsy
