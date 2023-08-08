@@ -7,6 +7,7 @@ local theme = {}
 
 local groups = {
 	hint = p.lightBlue,
+	info = p.gray,
 	warn = p.brightYellow,
 	error = p.hotRed,
 	panel = p.bg,
@@ -42,7 +43,7 @@ local highlights = {
 	Cursor = { fg = p.white, bg = p.none },
 	-- lCursor = { fg = c.cursor_fg, bg = "NONE" },
 	-- CursorIM = { fg = c.cursor_fg, bg = "NONE" },
-	-- TermCursor = { fg = c.cursor_fg, bg = "NONE" },
+	TermCursor = { fg = p.darkerGray, bg = p.gray },
 	-- TermCursorNC = { fg = c.cursor_fg, bg = "NONE" },
 	Underlined = { fg = p.lightBlue, underline = true },
 	Directory = { fg = p.lowerBlue, bg = p.none },
