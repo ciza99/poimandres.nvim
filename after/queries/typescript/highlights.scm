@@ -5,14 +5,15 @@
 
 (string_fragment) @string.fragment
 
-(true) @boolean.true
-(false) @falsy
-(null) @falsy
-(undefined) @falsy
+(value (true) @boolean.true)
+(value (false) @falsy)
+(value (null) @falsy)
+(value (undefined) @falsy)
 
 (literal_type (null) @literal_type)
 (literal_type (undefined) @literal_type)
 (literal_type (false) @literal_type)
+(literal_type (true) @literal_type)
 
 (import_clause 
   [
